@@ -9,5 +9,11 @@ permalink: /kube/
 ## Minikube
 
 * [Install](https://minikube.sigs.k8s.io/docs/start/)
-* minikube start
-  * Starts minikube running
+* Start `minikube`
+  * `minikube start`
+  * [Agones](/agones) requires some additional parameters
+* Install `kubtectl`
+  * `minikube kubectl -- get po -A`
+  * Add `alias kubectl="minikube kubectl --"` to profile
+* Open dashboard
+ * `minikube dashboard`
