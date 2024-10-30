@@ -1,5 +1,7 @@
+---
 layout: page
-title: "Kube"
-permalink: /kube
+title: Kube
+permalink: /kube/
+---
 
 # Kubernetes Notes
