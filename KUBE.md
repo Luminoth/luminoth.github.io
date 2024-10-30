@@ -9,6 +9,7 @@ permalink: /kube/
 ## General Usage
 
 * [Cheatsheet](https://www.bluematador.com/learn/kubectl-cheatsheet)
+* [Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference/)
 * Get cluster info
   * `kubectl cluster-info`
 * Get cluster config
