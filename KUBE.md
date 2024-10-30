@@ -14,6 +14,7 @@ permalink: /kube/
 * Installing `kubtectl`
   * `minikube kubectl -- get po -A`
   * Add `alias kubectl="minikube kubectl --"` to profile
+      * Using this with `agones` will need `-p agones` before the `--`
 * Start the cluster
   * `minikube start`
   * [Agones](/agones) requires some additional parameters
