@@ -1,1 +1,1 @@
-# luminoth.github.io
+# I collect notes here or something, idk
