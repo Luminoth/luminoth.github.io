@@ -9,6 +9,8 @@ permalink: /agones/
 ## Minikube
 
 * [Minikube notes](/kube)
+* If using the `minikube` `kubectl`, make sure the alias includes the `agones` profile
+  * `alias kubectl="minikube kubectl -p agones --`
 * Startup with the supported Kubernetes version and the Agones profile
   *  `minikube start --kubernetes-version v1.29.7 -p agones`
   *  Starting with a (narrow) range of ports exposed (through Docker) for connections
