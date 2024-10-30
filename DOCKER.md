@@ -1,5 +1,7 @@
+---
 layout: page
-title: "Docker"
-permalink: /docker
+title: Docker
+permalink: /docker/
+---
 
 # Docker Notes
