@@ -29,9 +29,13 @@ permalink: /kube/
   * `minikube kubectl -- get po -A`
   * Add `alias kubectl="minikube kubectl --"` to profile
       * Using this with `agones` will need `-p agones` before the `--`
+* Check for updates
+  * `minikube update-check`
 * Start the cluster
   * `minikube start`
   * [Agones](/agones) requires some additional parameters
+* Get cluster status
+  * `minikube status`
 * Pause / Unpause the cluster
   * `minikube pause`
   * `minikube unpause`
@@ -44,3 +48,5 @@ permalink: /kube/
   * `minikube delete --all`
 * Open dashboard
   * `minikube dashboard`
+* Get logs
+  * `minikube logs`
