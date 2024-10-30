@@ -9,11 +9,23 @@ permalink: /kube/
 ## Minikube
 
 * [Install](https://minikube.sigs.k8s.io/docs/start/)
-* Start `minikube`
-  * `minikube start`
-  * [Agones](/agones) requires some additional parameters
-* Install `kubtectl`
+* [Handbook](https://minikube.sigs.k8s.io/docs/handbook/)
+* [Command Reference](https://minikube.sigs.k8s.io/docs/commands/)
+* Installing `kubtectl`
   * `minikube kubectl -- get po -A`
   * Add `alias kubectl="minikube kubectl --"` to profile
+* Start the cluster
+  * `minikube start`
+  * [Agones](/agones) requires some additional parameters
+* Pause / Unpause the cluster
+ * `minikube pause`
+ * `minikube unpause`
+* Halt the cluster
+ * `minikube stop`
+* List installed addons
+ * `minikube addons list`
+* Delete clusters
+ * `minikube delete -p {profile}`
+ * `minikube delete --all`
 * Open dashboard
  * `minikube dashboard`
