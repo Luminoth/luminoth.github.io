@@ -6,6 +6,20 @@ permalink: /kube/
 
 # Kubernetes Notes
 
+## General Usage
+
+* [Cheatsheet](https://www.bluematador.com/learn/kubectl-cheatsheet)
+* Get cluster info
+  * `kubectl cluster-info`
+* Get cluster config
+  * `kubectl config view`
+* Get API info
+  * `kubectl api-resources`
+  * `kubectl api-versions`
+* List everything
+  * `kubectl get all --all-namespaces`
+* ... 
+
 ## Minikube
 
 * [Install](https://minikube.sigs.k8s.io/docs/start/)
