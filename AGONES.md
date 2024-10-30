@@ -18,5 +18,15 @@ permalink: /agones/
 * Get local IP
   * `minikube ip -p agones`
   * Use instead of the published `GameServer` IP
-* "Uninstalling"
+* "Uninstalling" the cluster
   * `minikube delete -p agones`
+
+## General Usage
+
+* Delete Fleets
+  * `kubectl delete fleets --all --all-namespaces`
+* Delete Game Servers
+  * `kubectl delete gameservers --all --all-namespaces`
+* Uninstalling
+  * `kubectl delete -f https://raw.githubusercontent.com/googleforgames/agones/release-1.44.0/install/yaml/install.yaml`
+  * `kubectl delete namespace agones-system`
