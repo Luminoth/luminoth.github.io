@@ -1,5 +1,7 @@
 # I collect notes here or something, idk
 
+## Notes
+
 * [Docker](/docker)
-* [Kubernetes](/kubernetes)
+* [Kubernetes](/kube)
   
