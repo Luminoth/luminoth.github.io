@@ -18,14 +18,14 @@ permalink: /kube/
   * `minikube start`
   * [Agones](/agones) requires some additional parameters
 * Pause / Unpause the cluster
- * `minikube pause`
- * `minikube unpause`
+  * `minikube pause`
+  * `minikube unpause`
 * Halt the cluster
- * `minikube stop`
+  * `minikube stop`
 * List installed addons
- * `minikube addons list`
+  * `minikube addons list`
 * Delete clusters
- * `minikube delete -p {profile}`
- * `minikube delete --all`
+  * `minikube delete -p {profile}`
+  * `minikube delete --all`
 * Open dashboard
- * `minikube dashboard`
+  * `minikube dashboard`
