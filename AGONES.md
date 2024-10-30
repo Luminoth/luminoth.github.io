@@ -23,6 +23,11 @@ permalink: /agones/
 
 ## General Usage
 
+* Verify Agones is running
+  * `kubectl describe --namespace agones-system pods`
+      * Verify all 6 Pods exist and have no errors
+  * `kubectl get pods --namespace agones-system`
+      * All Pods should be Running
 * Delete Fleets
   * `kubectl delete fleets --all --all-namespaces`
 * Delete Game Servers
