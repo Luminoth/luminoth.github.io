@@ -6,6 +6,8 @@ permalink: /agones/
 
 # Agones Notes
 
+* [State Diagram](https://agones.dev/site/docs/reference/gameserver/#gameserver-state-diagram)
+
 ## Minikube
 
 * [Minikube notes](/kube)
