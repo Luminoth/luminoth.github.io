@@ -51,3 +51,6 @@ permalink: /kube/
   * `minikube dashboard`
 * Get logs
   * `minikube logs`
+
+## Tools
+* [k9s](https://k9scli.io/)
