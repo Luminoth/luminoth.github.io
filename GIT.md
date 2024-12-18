@@ -19,4 +19,4 @@ permalink: /git/
 * Destroy a remote branch
   * `git push -d {remote name} {branch name}`
 * Destroy a local branch
- * `git branch -d {branch name}`
+  * `git branch -d {branch name}`
