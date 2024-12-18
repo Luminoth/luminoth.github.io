@@ -2,6 +2,7 @@
 
 ## Notes
 
+* [Git](/git)
 * [Docker](/docker)
 * [Kubernetes](/kube)
 * [Agones](/agones)
