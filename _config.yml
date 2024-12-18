@@ -2,7 +2,7 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
 minima:
-  skin: auto
+  skin: dark
 
 title: My Notes And Stuff
 description: Do not perceive me
